@@ -7,16 +7,14 @@ namespace Signature
         {
         private static void Main ( string [ ] args )
             {
-            Console.WriteLine ( Signed ( "Jerry", 'R', "Peirce" ) );
-            }
+            string[] signed = { "Jerry", "R", "Peirce" };
 
-        private static string Signed ( string first, char mid, string last )
-            {
-            StringBuilder sb = new StringBuilder();
-            sb.AppendLine ( "---" ).Append ( first ).Append ( " " );
-            sb.Append ( mid ).Append ( " " ).AppendLine ( last );
-            string whole = sb.ToString();
-            return whole;
+            StringBuilder sb = new StringBuilder().AppendLine ( "---" );
+            foreach ( string item in signed )
+                {
+                sb.Append ( item ).Append ( " " );
+                }
+            Console.WriteLine ( sb.ToString ( ) );
             }
         }
     }
