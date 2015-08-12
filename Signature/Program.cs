@@ -12,8 +12,8 @@ namespace Signature {
             try {
                 StringBuilder sb = new StringBuilder().AppendLine("---");
                 foreach(string item in signed) { sb.Append(item).Append(" "); }
+                sb.AppendLine().AppendLine(String.Join(" | ", contact));
                 Console.WriteLine(sb.ToString());
-                Console.WriteLine(String.Join(" | ", contact));
                 } catch(Exception ex) {
                 Console.WriteLine(ex.GetType().Name);
                 Console.WriteLine(ex.Message);
