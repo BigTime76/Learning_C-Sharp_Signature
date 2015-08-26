@@ -4,3 +4,6 @@ D:\Users\Jerry\OneDrive\VS_Projects\Signature\Signature\bin\Debug\Signature.pdb
 D:\Users\Jerry\OneDrive\VS_Projects\Signature\Signature\obj\Debug\Signature.csprojResolveAssemblyReference.cache
 D:\Users\Jerry\OneDrive\VS_Projects\Signature\Signature\obj\Debug\Signature.exe
 D:\Users\Jerry\OneDrive\VS_Projects\Signature\Signature\obj\Debug\Signature.pdb
+C:\Users\Jerry\OneDrive\VS_Projects\Signature\Signature\bin\Debug\Signature.exe.config
+C:\Users\Jerry\OneDrive\VS_Projects\Signature\Signature\obj\Debug\Signature.exe
+C:\Users\Jerry\OneDrive\VS_Projects\Signature\Signature\obj\Debug\Signature.pdb
